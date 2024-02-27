@@ -1,0 +1,18 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %> <%--JSP문서 선언--%>
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<form action="/jsp/members/save.jsp" method="post">
+    username: <input type="text" name="username" />
+    age: <input type="text" name="age" />
+    <button type="submit">전송</button>
+</form>
+</body>
+</html>
+
+<%--
+    -서블릿과 JSP의 한계
+
+--%>
