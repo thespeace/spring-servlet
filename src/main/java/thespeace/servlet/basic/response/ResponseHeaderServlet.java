@@ -20,7 +20,7 @@ import java.io.PrintWriter;
  *      편의 기능 제공
  *          Content-Type, 쿠키, Redirect
  *
- * @see http://localhost:8080/response-header
+ * @see <a href="http://localhost:8080/response-header">test link</a>
  */
 @WebServlet(name = "responseHeaderServlet", urlPatterns = "/response-header")
 public class ResponseHeaderServlet extends HttpServlet {
