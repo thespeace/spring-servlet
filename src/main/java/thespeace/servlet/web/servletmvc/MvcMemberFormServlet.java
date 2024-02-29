@@ -21,7 +21,7 @@ public class MvcMemberFormServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String viewPath = "/WEB-INF/views/new-from.jsp";
+        String viewPath = "/WEB-INF/views/new-form.jsp";
         RequestDispatcher dispatcher = request.getRequestDispatcher(viewPath);
         dispatcher.forward(request, response); //servlet에서 다른 servlet이나 jsp로 이동할 수 있는 기능, 서버 내부에서 다시 호출이 발생.
 
